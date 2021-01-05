@@ -9,9 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let some = 2
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let _  = converter(1)
+        let _  = converter(2)
     }
 
     func converter(_ number: Int) -> String {
