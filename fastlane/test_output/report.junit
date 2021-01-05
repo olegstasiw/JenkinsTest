@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='JenkinsTestUITests.xctest' tests='6' failures='0'>
+<testsuites name='JenkinsTestTests.xctest' tests='6' failures='0'>
+  <testsuite name='JenkinsTestUITests.JenkinsTestUITests' tests='2' failures='0'>
+    <testcase classname='JenkinsTestUITests.JenkinsTestUITests' name='testExample' time='6.874'/>
+    <testcase classname='JenkinsTestUITests.JenkinsTestUITests' name='testLaunchPerformance' time='41.354'/>
+  </testsuite>
   <testsuite name='JenkinsTestTests.JenkinsTestTests' tests='4' failures='0'>
     <testcase classname='JenkinsTestTests.JenkinsTestTests' name='testConversionForTwo' time='0.001'/>
     <testcase classname='JenkinsTestTests.JenkinsTestTests' name='testExample' time='0.000'/>
-    <testcase classname='JenkinsTestTests.JenkinsTestTests' name='testPerformanceExample' time='0.307'/>
+    <testcase classname='JenkinsTestTests.JenkinsTestTests' name='testPerformanceExample' time='0.294'/>
     <testcase classname='JenkinsTestTests.JenkinsTestTests' name='testSomeIsTwo' time='0.000'/>
-  </testsuite>
-  <testsuite name='JenkinsTestUITests.JenkinsTestUITests' tests='2' failures='0'>
-    <testcase classname='JenkinsTestUITests.JenkinsTestUITests' name='testExample' time='6.138'/>
-    <testcase classname='JenkinsTestUITests.JenkinsTestUITests' name='testLaunchPerformance' time='41.947'/>
   </testsuite>
 </testsuites>
