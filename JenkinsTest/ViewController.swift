@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 
     func converter(_ number: Int) -> String {
         var string = ""
-        for _  in 0...number {
+        for _  in 1...number {
             string.append("I")
         }
         return string
