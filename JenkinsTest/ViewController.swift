@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    func converter(_ number: Int) -> String {
+        var string = ""
+        for _  in 0...number {
+            string.append("I")
+        }
+        return string
+    }
 
 }
 

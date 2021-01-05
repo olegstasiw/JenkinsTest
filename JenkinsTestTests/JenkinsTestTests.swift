@@ -6,11 +6,14 @@
 //
 
 import XCTest
+@testable import JenkinsTest
 
 class JenkinsTestTests: XCTestCase {
+    
+    var sut: ViewController!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        sut = ViewController()
     }
 
     override func tearDownWithError() throws {
@@ -27,6 +30,11 @@ class JenkinsTestTests: XCTestCase {
         measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testConversionForTwo() {
+        let result = sut.converter(2)
+      XCTAssertEqual(result, "II", "Conversion for 2 is incorrect")
     }
 
 }
