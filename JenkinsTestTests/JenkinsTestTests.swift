@@ -45,5 +45,8 @@ class JenkinsTestTests: XCTestCase {
     func testSomeIsTwo22() {
         XCTAssertEqual(sut.some, 2, "Conversion for 2 is incorrect")
     }
+    func testSomeIsTwo222() {
+        XCTAssertEqual(sut.some, 2, "Conversion for 2 is incorrect")
+    }
 
 }
